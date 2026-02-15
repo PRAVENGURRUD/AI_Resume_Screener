@@ -10,6 +10,7 @@ phonenumbers>=8.13.0
 
 # NLP and Entity Extraction
 spacy>=3.7.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
 nltk>=3.8.0
 
 # Semantic Similarity
