@@ -1,0 +1,47 @@
+{
+  "pairs": [
+    {"pair_id": 1, "resume_id": "resume_001", "jd_id": "jd_001", "human_score": 95, "notes": "Senior ML engineer with 7 years Python, TensorFlow, PyTorch, AWS experience. Excellent match."},
+    {"pair_id": 2, "resume_id": "resume_002", "jd_id": "jd_001", "human_score": 88, "notes": "Strong ML skills, 4 years experience (1 year short). Good TensorFlow knowledge."},
+    {"pair_id": 3, "resume_id": "resume_003", "jd_id": "jd_002", "human_score": 92, "notes": "Expert React developer, 5 years frontend experience. Perfect match for the role."},
+    {"pair_id": 4, "resume_id": "resume_004", "jd_id": "jd_002", "human_score": 82, "notes": "Good React skills but limited TypeScript experience."},
+    {"pair_id": 5, "resume_id": "resume_005", "jd_id": "jd_003", "human_score": 90, "notes": "Strong DevOps background with Kubernetes, Docker, AWS. Good Terraform skills."},
+    {"pair_id": 6, "resume_id": "resume_006", "jd_id": "jd_001", "human_score": 72, "notes": "Python developer with some ML exposure. Limited deep learning experience."},
+    {"pair_id": 7, "resume_id": "resume_007", "jd_id": "jd_002", "human_score": 65, "notes": "Angular developer, not React. Would need retraining."},
+    {"pair_id": 8, "resume_id": "resume_008", "jd_id": "jd_003", "human_score": 78, "notes": "Good cloud experience, less Kubernetes expertise than desired."},
+    {"pair_id": 9, "resume_id": "resume_009", "jd_id": "jd_004", "human_score": 75, "notes": "Full stack experience with Node.js, limited React experience."},
+    {"pair_id": 10, "resume_id": "resume_010", "jd_id": "jd_004", "human_score": 68, "notes": "Java backend developer, learning React. Partial match."},
+    {"pair_id": 11, "resume_id": "resume_011", "jd_id": "jd_001", "human_score": 55, "notes": "Data analyst with basic Python. No deep learning or ML engineering experience."},
+    {"pair_id": 12, "resume_id": "resume_012", "jd_id": "jd_002", "human_score": 45, "notes": "Backend Python developer applying for frontend role. Major skill gap."},
+    {"pair_id": 13, "resume_id": "resume_013", "jd_id": "jd_003", "human_score": 52, "notes": "System administrator with some Docker knowledge. Needs more DevOps training."},
+    {"pair_id": 14, "resume_id": "resume_014", "jd_id": "jd_005", "human_score": 58, "notes": "Business analyst with SQL skills. Limited Python and ML experience."},
+    {"pair_id": 15, "resume_id": "resume_015", "jd_id": "jd_005", "human_score": 48, "notes": "Marketing analytics background. Some Python but different domain."},
+    {"pair_id": 16, "resume_id": "resume_016", "jd_id": "jd_001", "human_score": 35, "notes": "Web developer with JavaScript focus. No ML or Python experience."},
+    {"pair_id": 17, "resume_id": "resume_017", "jd_id": "jd_002", "human_score": 28, "notes": "Android developer applying for React frontend role."},
+    {"pair_id": 18, "resume_id": "resume_018", "jd_id": "jd_003", "human_score": 32, "notes": "Manual QA tester. No automation or DevOps experience."},
+    {"pair_id": 19, "resume_id": "resume_019", "jd_id": "jd_006", "human_score": 38, "notes": "Junior developer (1 year) applying for senior role (6+ years required)."},
+    {"pair_id": 20, "resume_id": "resume_020", "jd_id": "jd_006", "human_score": 25, "notes": "Career changer from finance. Learning to code."},
+    {"pair_id": 21, "resume_id": "resume_021", "jd_id": "jd_001", "human_score": 15, "notes": "Project manager with no technical coding experience."},
+    {"pair_id": 22, "resume_id": "resume_022", "jd_id": "jd_002", "human_score": 12, "notes": "Graphic designer, no frontend development skills."},
+    {"pair_id": 23, "resume_id": "resume_023", "jd_id": "jd_003", "human_score": 18, "notes": "Fresh graduate, IT degree but no DevOps experience."},
+    {"pair_id": 24, "resume_id": "resume_024", "jd_id": "jd_007", "human_score": 10, "notes": "Android developer, no iOS or Swift experience."},
+    {"pair_id": 25, "resume_id": "resume_025", "jd_id": "jd_007", "human_score": 8, "notes": "Web developer, no mobile development background."},
+    {"pair_id": 26, "resume_id": "resume_001", "jd_id": "jd_005", "human_score": 85, "notes": "ML engineer has strong data science foundations. Good cross-match."},
+    {"pair_id": 27, "resume_id": "resume_002", "jd_id": "jd_010", "human_score": 78, "notes": "ML background applicable to LLM work. Needs LangChain experience."},
+    {"pair_id": 28, "resume_id": "resume_003", "jd_id": "jd_007", "human_score": 22, "notes": "React developer for iOS role. Wrong platform entirely."},
+    {"pair_id": 29, "resume_id": "resume_004", "jd_id": "jd_001", "human_score": 58, "notes": "Frontend dev with some Python. Limited ML background."},
+    {"pair_id": 30, "resume_id": "resume_005", "jd_id": "jd_008", "human_score": 82, "notes": "Strong DevOps to Cloud Architect transition. Good AWS/Terraform skills."}
+  ],
+  "metadata": {
+    "created_at": "2026-01-25",
+    "total_pairs": 30,
+    "description": "Human-labeled fit scores (0-100) for resume-JD pairs",
+    "scoring_criteria": {
+      "90-100": "Excellent match - meets or exceeds all requirements",
+      "70-89": "Good match - meets most requirements with minor gaps",
+      "50-69": "Moderate match - has some relevant skills but significant gaps",
+      "30-49": "Weak match - limited relevant experience",
+      "0-29": "Poor match - does not meet key requirements"
+    },
+    "labeler": "Human expert with recruiting experience"
+  }
+}
