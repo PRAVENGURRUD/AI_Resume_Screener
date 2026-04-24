@@ -1,0 +1,99 @@
+{
+  "job_descriptions": [
+    {
+      "id": "jd_001",
+      "title": "Senior Machine Learning Engineer",
+      "company": "TechCorp AI",
+      "description": "We are looking for a Senior Machine Learning Engineer to join our AI team. You will design and implement ML models for production systems.\n\nResponsibilities:\n- Design, develop, and deploy machine learning models\n- Work with large-scale data pipelines\n- Collaborate with cross-functional teams\n- Mentor junior engineers\n\nRequirements:\n- 5+ years of experience in ML/AI\n- Strong Python programming skills\n- Experience with TensorFlow or PyTorch\n- Knowledge of deep learning architectures\n- Experience with cloud platforms (AWS, GCP)\n- Strong communication skills",
+      "required_skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "Deep Learning", "AWS", "Data Science", "SQL", "Docker", "Git"],
+      "required_experience_years": 5,
+      "required_education": ["Bachelor's", "Master's", "PhD", "Computer Science", "Data Science"]
+    },
+    {
+      "id": "jd_002",
+      "title": "Frontend Developer",
+      "company": "WebStart Inc",
+      "description": "Join our dynamic team as a Frontend Developer. Build beautiful, responsive web applications.\n\nResponsibilities:\n- Develop responsive web applications using React\n- Collaborate with designers and backend teams\n- Optimize applications for performance\n- Write clean, maintainable code\n\nRequirements:\n- 3+ years of frontend development experience\n- Strong proficiency in React.js\n- Experience with TypeScript\n- Knowledge of modern CSS and HTML5\n- Familiarity with REST APIs",
+      "required_skills": ["React", "JavaScript", "TypeScript", "HTML", "CSS", "REST API", "Git", "Node.js", "Redux", "Tailwind CSS"],
+      "required_experience_years": 3,
+      "required_education": ["Bachelor's", "Computer Science"]
+    },
+    {
+      "id": "jd_003",
+      "title": "DevOps Engineer",
+      "company": "CloudScale Solutions",
+      "description": "We need a DevOps Engineer to manage our cloud infrastructure and CI/CD pipelines.\n\nResponsibilities:\n- Design and maintain CI/CD pipelines\n- Manage cloud infrastructure on AWS/GCP\n- Implement infrastructure as code\n- Monitor system performance and reliability\n\nRequirements:\n- 4+ years of DevOps experience\n- Strong experience with Kubernetes and Docker\n- Proficiency in Terraform or CloudFormation\n- Experience with Jenkins, GitLab CI, or GitHub Actions\n- Knowledge of monitoring tools (Prometheus, Grafana)",
+      "required_skills": ["Docker", "Kubernetes", "AWS", "Terraform", "Jenkins", "CI/CD", "Linux", "Python", "Prometheus", "Grafana"],
+      "required_experience_years": 4,
+      "required_education": ["Bachelor's", "Computer Science", "Information Technology"]
+    },
+    {
+      "id": "jd_004",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "description": "Looking for a versatile Full Stack Developer to build end-to-end features.\n\nResponsibilities:\n- Develop frontend and backend features\n- Design database schemas\n- Build RESTful APIs\n- Participate in code reviews\n\nRequirements:\n- 3+ years of full stack experience\n- Proficiency in React and Node.js\n- Experience with PostgreSQL or MongoDB\n- Knowledge of REST and GraphQL\n- Familiarity with cloud services",
+      "required_skills": ["React", "Node.js", "JavaScript", "PostgreSQL", "MongoDB", "REST API", "GraphQL", "AWS", "Docker", "Git"],
+      "required_experience_years": 3,
+      "required_education": ["Bachelor's"]
+    },
+    {
+      "id": "jd_005",
+      "title": "Data Scientist",
+      "company": "DataDriven Analytics",
+      "description": "Join our data science team to derive insights from complex datasets.\n\nResponsibilities:\n- Analyze large datasets to find patterns\n- Build predictive models\n- Create data visualizations\n- Present findings to stakeholders\n\nRequirements:\n- 3+ years of data science experience\n- Strong Python and SQL skills\n- Experience with pandas, numpy, scikit-learn\n- Knowledge of statistical analysis\n- Experience with data visualization tools",
+      "required_skills": ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "Machine Learning", "Statistics", "Data Visualization", "Jupyter", "Tableau"],
+      "required_experience_years": 3,
+      "required_education": ["Master's", "Statistics", "Data Science", "Mathematics", "Computer Science"]
+    },
+    {
+      "id": "jd_006",
+      "title": "Senior Backend Engineer",
+      "company": "Enterprise Solutions Ltd",
+      "description": "Senior Backend Engineer needed to build scalable microservices.\n\nResponsibilities:\n- Design and implement microservices architecture\n- Optimize database performance\n- Build high-throughput APIs\n- Lead technical design discussions\n\nRequirements:\n- 6+ years of backend development\n- Strong Java or Python skills\n- Experience with Spring Boot or Django\n- Knowledge of message queues (Kafka, RabbitMQ)\n- Experience with microservices architecture",
+      "required_skills": ["Java", "Python", "Spring Boot", "Django", "Kafka", "PostgreSQL", "Docker", "Kubernetes", "Microservices", "REST API"],
+      "required_experience_years": 6,
+      "required_education": ["Bachelor's", "Master's", "Computer Science"]
+    },
+    {
+      "id": "jd_007",
+      "title": "iOS Developer",
+      "company": "MobileFirst Apps",
+      "description": "iOS Developer to build native mobile applications.\n\nResponsibilities:\n- Develop iOS applications using Swift\n- Work with UIKit and SwiftUI\n- Integrate with REST APIs\n- Ensure app performance and quality\n\nRequirements:\n- 3+ years of iOS development\n- Strong Swift programming skills\n- Experience with Xcode and iOS SDK\n- Knowledge of Core Data and networking\n- App Store deployment experience",
+      "required_skills": ["Swift", "iOS Development", "Xcode", "SwiftUI", "UIKit", "Core Data", "REST API", "Git", "Objective-C"],
+      "required_experience_years": 3,
+      "required_education": ["Bachelor's", "Computer Science"]
+    },
+    {
+      "id": "jd_008",
+      "title": "Cloud Solutions Architect",
+      "company": "CloudFirst Consulting",
+      "description": "Cloud Solutions Architect to design enterprise cloud solutions.\n\nResponsibilities:\n- Design cloud architecture for clients\n- Lead cloud migration projects\n- Ensure security and compliance\n- Provide technical leadership\n\nRequirements:\n- 7+ years of IT experience with 4+ in cloud\n- AWS or Azure certifications preferred\n- Experience with infrastructure as code\n- Strong understanding of networking and security\n- Excellent communication skills",
+      "required_skills": ["AWS", "Azure", "Terraform", "Cloud Architecture", "Security", "Networking", "Docker", "Kubernetes", "Python", "Leadership"],
+      "required_experience_years": 7,
+      "required_education": ["Bachelor's", "Master's", "Computer Science", "Information Technology"]
+    },
+    {
+      "id": "jd_009",
+      "title": "QA Automation Engineer",
+      "company": "QualityTech",
+      "description": "QA Automation Engineer to build test frameworks and ensure quality.\n\nResponsibilities:\n- Design and implement test automation frameworks\n- Write automated tests for web and API\n- Perform regression and performance testing\n- Collaborate with development teams\n\nRequirements:\n- 3+ years of QA automation experience\n- Experience with Selenium or Cypress\n- Knowledge of Python or JavaScript\n- Experience with CI/CD integration\n- Understanding of Agile methodologies",
+      "required_skills": ["Selenium", "Cypress", "Python", "JavaScript", "Pytest", "Jest", "CI/CD", "REST API", "Git", "Agile"],
+      "required_experience_years": 3,
+      "required_education": ["Bachelor's", "Computer Science"]
+    },
+    {
+      "id": "jd_010",
+      "title": "AI/LLM Engineer",
+      "company": "NextGen AI",
+      "description": "AI/LLM Engineer to work on cutting-edge language models and RAG systems.\n\nResponsibilities:\n- Develop LLM-powered applications\n- Build RAG pipelines with vector databases\n- Fine-tune and optimize language models\n- Integrate with existing systems\n\nRequirements:\n- 3+ years of ML/AI experience\n- Experience with transformers and LLMs\n- Knowledge of LangChain, OpenAI API\n- Experience with vector databases (Pinecone, Weaviate)\n- Strong Python skills",
+      "required_skills": ["Python", "LLM", "Langchain", "OpenAI", "RAG", "Machine Learning", "Hugging Face", "PyTorch", "Vector Databases", "Docker"],
+      "required_experience_years": 3,
+      "required_education": ["Master's", "PhD", "Computer Science", "AI", "Machine Learning"]
+    }
+  ],
+  "metadata": {
+    "total_jds": 10,
+    "created_at": "2026-01-25",
+    "description": "Sample job descriptions for resume screening evaluation"
+  }
+}
