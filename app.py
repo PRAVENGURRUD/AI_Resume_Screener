@@ -764,8 +764,16 @@ def main():
                         resume_data, results = analyze_single_resume(
                             file, jd_text, jd_skills, required_exp
                         )
-                        
-                        results['name'] = resume_data.get('name', file.name)
+
+                        candidate_name = (resume_data.get('name') or '').strip()
+                        invalid_name_terms = ('linkedin', 'http', 'www', '.com', '@')
+                        if (
+                            not candidate_name
+                            or any(term in candidate_name.lower() for term in invalid_name_terms)
+                        ):
+                            candidate_name = Path(file.name).stem.replace('_', ' ').replace('-', ' ').strip()
+
+                        results['name'] = candidate_name
                         results['filename'] = file.name
                         results['resume_data'] = resume_data
                         

@@ -299,13 +299,34 @@ class ResumeParser:
             Optional[str]: Name if found, None otherwise
         """
         lines = text.split('\n')
-        # Usually name is in the first few lines
-        for line in lines[:5]:
+        # Usually name is near the top, but skip links/contact/header noise.
+        for line in lines[:12]:
             line = line.strip()
-            if line and len(line.split()) <= 4 and not '@' in line:
-                # Simple heuristic: name doesn't contain email or phone patterns
-                if not self.email_pattern.search(line) and not self.phone_pattern.search(line):
-                    return line
+            if not line:
+                continue
+
+            line_lower = line.lower()
+            banned_terms = (
+                'linkedin', 'github', 'portfolio', 'http', 'www', '.com',
+                'email', 'phone', 'address', 'curriculum vitae', 'resume'
+            )
+            if any(term in line_lower for term in banned_terms):
+                continue
+
+            if '@' in line:
+                continue
+            if self.email_pattern.search(line) or self.phone_pattern.search(line):
+                continue
+            if any(ch.isdigit() for ch in line):
+                continue
+
+            words = line.split()
+            if len(words) < 2 or len(words) > 4:
+                continue
+
+            # Keep only person-like tokens (letters plus common name punctuation).
+            if all(re.fullmatch(r"[A-Za-z][A-Za-z'\.-]*", w) for w in words):
+                return ' '.join(words)
         return None
     
     def extract_skills(self, text: str) -> List[str]:
